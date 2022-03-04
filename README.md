@@ -1,5 +1,7 @@
-![](https://smeskey-github-prod.s3.amazonaws.com/projects/druid/github/worklow_designer_v2_manage.png)
-![](https://smeskey-github-prod.s3.amazonaws.com/projects/druid/github/unrefined_worflow_designer_rendered.png)
+# Demos
+
+https://ng-druid.github.io/workflow-designer-v2
+https://ng-druid.github.io/workflow-designer-v2/manage
 
 # Summary
 
