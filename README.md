@@ -1,3 +1,5 @@
+![](https://smeskey-github-prod.s3.amazonaws.com/projects/druid/github/worklow_designer_v1_manage.png)
+
 # Summary
 
 This work flow designer will be fully recreated as a druid demo. Druid will replace the app shell in this repo. This will be the first fully functional druid demo using module federation.
