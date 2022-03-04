@@ -1,6 +1,11 @@
 # Demos
 
+Pulls in workflow designer micro front-ends into druid shell.
+
 https://ng-druid.github.io/workflow-designer-v2
+
+Provides editor to easily orchestrate micro front-ends.
+
 https://ng-druid.github.io/workflow-designer-v2/manage
 
 # Summary
