@@ -30,7 +30,7 @@ The outsider module exposes a content type that can be used to include outside a
 
 ## Tractor Beam
 
-This has not been implemnted yet. The plan is to allow modules / apps to be pulled in immediately on the editor. When an app / module is pulled in all the extensions which that module provides become immediately available to use within the editor. This would make it possible to create a separate charts repo / app which extends druid editor with charts. Just one example.
+This has not been implemnted yet. The plan is to allow modules / apps to be pulled in immediately on the editor. When an app / module is pulled in all the extensions which that module provides become immediately available to use within the editor. This would make it possible to create a separate charts repo / app which extends druid editor with charts. Just one example. features will be able to be dynamically added add a click of a few buttons from completely separate repos.
 
 # FederationDemo
 
