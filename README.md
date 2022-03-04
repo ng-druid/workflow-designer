@@ -14,7 +14,7 @@ All druid contexts can be accessed by micro applications using the context plugi
 
 State can both be shared through NgRx or at a higher level with the context plugin manager which turns state info into domain specific contextual info glabally available throughout the shell and all children hosted within it.
 
-# Extensibility
+## Extensibility
 
 All child applications have access to ALL plugin manager and the plugin manager lib itself. Therefore, child applications can define not only ne plugins but new plugin definitions with their own dedicated manager hosted outside the shell application. This makes for ultimate flexibility. External apps are not limited to ones with visually displays but can also just be modules that add new plugins or define new plugin managers. For example, an outside app/module in the future can be loaded into the druid editor and any content types it adds will be available immedaitely for editors to use.
 
