@@ -1,4 +1,4 @@
-![](https://smeskey-github-prod.s3.amazonaws.com/projects/druid/github/worklow_designer_v1_manage.png)
+![](https://smeskey-github-prod.s3.amazonaws.com/projects/druid/github/worklow_designer_v2_manage.png)
 
 # Summary
 
