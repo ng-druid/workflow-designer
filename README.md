@@ -1,3 +1,17 @@
+# Summary
+
+This work flow designer will be fully recreated as a druid demo. Druid will replace the app shell in this repo. This will be the first fully functional druid demo using module federation.
+
+All druid modules will be shared with micro applications. This provides some very powerful benefits.
+
+## Auth
+
+The shell owns authentication. The auth info can easily be accessed by any app using NgRx.
+
+## Context
+
+All druid contexts can be accessed by micro applications using the context plugin manager. For example, when a panel page hosting micro front-ends has a ad id as a path input which sets up a context to an ad. That context can be accessed through the context plugin manager and a micro application can respond to changes in the context like when the ad changes.
+
 # FederationDemo
 
 Demonstrates webpack 5 Module Federation with Angular and the Angular Router.
