@@ -4,7 +4,8 @@ import { Component, OnInit } from '@angular/core';
     selector: 'mfe1-upload',
     template: `
         <div class="task">
-            <img src="http://localhost:3000/assets/upload.png">
+            <!-- <img src="https://d16ooy9q113vw2.cloudfront.net/assets/upload.png"> -->
+            <img src="https://d8em0358gicmm.cloudfront.net/assets/upload.png">
             <p>Upload</p>
         </div>
     `
