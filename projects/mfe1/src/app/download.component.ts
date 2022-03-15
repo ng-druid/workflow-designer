@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ContentPluginManager } from '@ng-druid/content';
 
 @Component({
     selector: 'mfe1-download',
@@ -12,7 +13,11 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class DownloadComponent implements OnInit {
-    constructor() { }
+    constructor(
+        private cpm: ContentPluginManager
+    ) { 
+        console.log('download component constructor');
+    }
 
     ngOnInit() { }
 }

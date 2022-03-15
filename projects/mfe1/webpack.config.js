@@ -6,7 +6,7 @@ const share = mf.share;
 const sharedMappings = new mf.SharedMappings();
 sharedMappings.register(
   path.join(__dirname, '../../tsconfig.json'),
-  [/* mapped paths to share */]);
+  []);
 
 module.exports = {
   output: {
@@ -32,6 +32,7 @@ module.exports = {
       name: "mfe1",
       filename: "remoteEntry.js",
       exposes: {
+        './DownloadModule': './projects/mfe1/src/app/download.module.ts',
         './Download': './projects/mfe1/src/app/download.component.ts',
         './Upload': './projects/mfe1/src/app/upload.component.ts'
       },
@@ -42,10 +43,11 @@ module.exports = {
         "@angular/common/http": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
         "@angular/router": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
 
-        /*"@ng-druid/utils": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
-        "@ng-druid/attributes": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
-        "@ng-druid/plugin": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
-        "@ng-druid/content": { singleton: true, strictVersion: true, requiredVersion: 'auto' },*/
+        "@ng-druid/utils": { singleton: true, strictVersion: true, requiredVersion: 'auto', eager: false },
+        "@ng-druid/attributes": { singleton: true, strictVersion: true, requiredVersion: 'auto', eager: false },
+        "@ng-druid/plugin": { singleton: true, strictVersion: true, requiredVersion: 'auto', eager: false },
+        "@ng-druid/material": { singleton: true, strictVersion: true, requiredVersion: 'auto', eager: false },
+        "@ng-druid/content": { singleton: true, strictVersion: true, requiredVersion: 'auto', eager: false },
 
         ...sharedMappings.getDescriptors()
       })

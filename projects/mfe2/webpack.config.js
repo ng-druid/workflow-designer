@@ -6,7 +6,7 @@ const share = mf.share;
 const sharedMappings = new mf.SharedMappings();
 sharedMappings.register(
   path.join(__dirname, '../../tsconfig.json'),
-  [/* mapped paths to share */]);
+  []);
 
 module.exports = {
   output: {
@@ -41,6 +41,12 @@ module.exports = {
         "@angular/common": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
         "@angular/common/http": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
         "@angular/router": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
+
+        "@ng-druid/utils": { singleton: true, strictVersion: false, eager: false }, 
+        "@ng-druid/attributes": { singleton: true, strictVersion: false, eager: false }, 
+        "@ng-druid/material": { singleton: true, strictVersion: false, eager: false }, 
+        "@ng-druid/plugin": { singleton: true, strictVersion: false, eager: false },
+        "@ng-druid/content": { singleton: true, strictVersion: false, eager: false },
 
         ...sharedMappings.getDescriptors()
       })
