@@ -1,5 +1,7 @@
 # Demos
 
+## Components
+
 Pulls in workflow designer micro front-ends into druid shell.
 
 https://ng-druid.github.io/workflow-designer-v2
@@ -7,6 +9,16 @@ https://ng-druid.github.io/workflow-designer-v2
 Provides editor to easily orchestrate micro front-ends.
 
 https://ng-druid.github.io/workflow-designer-v2/manage
+
+## Modules
+
+Pulls in modules (extenions) that provide new plugin.
+
+https://ng-druid.github.io/tractorbeam-test-v3
+
+Manage page. Click (x) in upper left corner to reveal context menu where new extensions can be added at runtime as contexts.
+
+https://ng-druid.github.io/tractorbeam-test-v3
 
 # Summary
 
@@ -40,7 +52,7 @@ The outsider module exposes a content type that can be used to include outside a
 
 ## Tractor Beam
 
-This has not been implemnted yet. The plan is to allow modules / apps to be pulled in immediately on the editor. When an app / module is pulled in all the extensions which that module provides become immediately available to use within the editor. This would make it possible to create a separate charts repo / app which extends druid editor with charts. Just one example. features will be able to be dynamically added add a click of a few buttons from completely separate repos.
+Modules can be pulled in immediately on the editor. When an app / module is pulled in all the plugins which that module provides become immediately available to use within the editor. This makes it possible to create a separate charts repo / app which extends druid editor with charts. Features can be  dynamically added at a click of a few buttons from completely separate repos.
 
 # FederationDemo
 
