@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { ContentHandler, ContentBinding, ContentPluginEditorOptions } from '@ng-druid/content';
-import { AttributeValue } from '@ng-druid/attributes';
+import { ContentHandler, ContentBinding, ContentPluginEditorOptions } from '@rollthecloudinc/content';
+import { AttributeValue } from '@rollthecloudinc/attributes';
 import { Observable, of } from 'rxjs';
 
 @Injectable()

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ContentPluginManager } from '@ng-druid/content';
+import { ContentPluginManager } from '@rollthecloudinc/content';
 
 @Component({
     selector: 'mfe1-download',

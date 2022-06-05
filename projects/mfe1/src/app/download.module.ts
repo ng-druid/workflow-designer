@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { DownloadComponent } from './download.component';
 import { DownloadContentHandler } from './handlers/download-content.handler';
-import { ContentPluginManager } from '@ng-druid/content';
+import { ContentPluginManager } from '@rollthecloudinc/content';
 import { mfe1DownloadContentPluginFactory } from './app.factories';
 import { CommonModule } from '@angular/common';
 

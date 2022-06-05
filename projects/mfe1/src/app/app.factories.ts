@@ -1,4 +1,4 @@
-import { ContentPlugin } from '@ng-druid/content';
+import { ContentPlugin } from '@rollthecloudinc/content';
 import { DownloadComponent } from './download.component';
 import { DownloadContentHandler } from './handlers/download-content.handler';
 

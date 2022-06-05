@@ -42,11 +42,11 @@ module.exports = {
         "@angular/common/http": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
         "@angular/router": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
 
-        "@ng-druid/utils": { singleton: true, strictVersion: false, eager: false }, 
-        "@ng-druid/attributes": { singleton: true, strictVersion: false, eager: false }, 
-        "@ng-druid/material": { singleton: true, strictVersion: false, eager: false }, 
-        "@ng-druid/plugin": { singleton: true, strictVersion: false, eager: false },
-        "@ng-druid/content": { singleton: true, strictVersion: false, eager: false },
+        "@rollthecloudinc/utils": { singleton: true, strictVersion: false, eager: false }, 
+        "@rollthecloudinc/attributes": { singleton: true, strictVersion: false, eager: false }, 
+        "@rollthecloudinc/material": { singleton: true, strictVersion: false, eager: false }, 
+        "@rollthecloudinc/plugin": { singleton: true, strictVersion: false, eager: false },
+        "@rollthecloudinc/content": { singleton: true, strictVersion: false, eager: false },
 
         ...sharedMappings.getDescriptors()
       })
